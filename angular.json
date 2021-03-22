@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "educompanyprojectangular"
+    }
+  },
+  "defaultProject": "educompanyprojectangular",
+  "cli": {
+    "analytics": "7e492e41-2d70-4d52-92b7-801e3653ebcb"
+  }
 }
