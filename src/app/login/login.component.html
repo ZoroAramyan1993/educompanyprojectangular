@@ -1,0 +1,16 @@
+<div   class="log"   style="margin: 0 auto; padding: 20px; width: 100%;height: 100%; ">
+<div  class="log1" style="margin: 0 auto; width: 400px; background-color:darkgrey;border-radius: 10px;">
+<h1 style="text-align: center">Login</h1>
+<form (ngSubmit)="onSubmit(loginForm.value.e, loginForm.value.password)" #loginForm="ngForm" style="display: flex; flex-direction: column; padding: 10px;">
+  <label for="e" >EMAIL:</label>
+  <input type="text" name="e"  id="e" #e="ngModel" ngModel required placeholder="input your email">
+  <label for="password" >PASSWORD:</label>
+  <input type="password" name="password" id="password" #password="ngModel" ngModel required placeholder="input your password">
+  <input type="submit" class='sub' name="submit" value="submit">
+  <a routerLink="/registration" >Not registered yet? Go to this link</a>
+</form>
+  <p *ngIf="loginError" style="color: red;">
+    User with such email and pass doesn't exist
+  </p>
+</div>
+</div>

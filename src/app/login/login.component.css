@@ -1,0 +1,23 @@
+.log{
+  background-image: url('../../assets/4614658-background.jpeg');
+  background-size: 100% auto;
+}
+.log1{
+  background-image: url('../../assets/216ef8d3f6a176e6d0d60bd6588af99f.jpg');
+  background-size: 100% 100%;
+}
+label{
+  margin: 10px 0;
+}
+a{
+  margin: 10px 0;
+}
+.sub{
+  width: 70px;
+  box-shadow: 2px 3px 3px black;
+  height: 30px;
+  margin: 10px 0;
+  padding: 5px;
+  font-weight: bold;
+  color: black;
+}

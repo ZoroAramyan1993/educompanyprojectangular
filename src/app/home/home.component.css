@@ -1,0 +1,5 @@
+input[type='text'], input[type='email'], input[type='password'], input[type='date']{
+  background-color: cadetblue;
+  color: white;
+  width: 60px;
+}
